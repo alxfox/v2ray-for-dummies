@@ -1,3 +1,7 @@
+## Disclaimer
+
+This repository is a work in progress and may contain untested or unvalidated information, example configurations, or suggested host/IP mappings. Proceed at your own risk: the instructions and data are provided "as is" and the authors disclaim responsibility for any damage, data loss, or legal consequences that may result from their use.
+
 # v2ray + Caddy
 A step-by-step configuration guide for setting up VPN tunneling through v2ray on both server and client sides. Intended for use in jurisdictions with restricted internet access.
 
@@ -6,6 +10,7 @@ A step-by-step configuration guide for setting up VPN tunneling through v2ray on
 This project is provided under the terms of the MIT License (see `LICENSE` in the repository root). Use of tools that enable bypassing network controls may be restricted or illegal in some jurisdictions. You are responsible for ensuring your use complies with local laws. The software is provided "as is", without warranty of any kind; to the maximum extent permitted by law the authors disclaim all liability for damages arising from its use.
 
 Third-party components (for example Docker, Caddy, v2ray, and related libraries) are distributed under their own licenses and remain subject to those license terms.
+
 
 ## Introduction
 This repository is separated into two separate parts, server and client. See the README files in the respective folders for detailed, runnable instructions:
