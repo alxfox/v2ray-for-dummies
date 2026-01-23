@@ -1,0 +1,14 @@
+example.com {
+
+  @v2ray {
+    path /vpn*
+  }
+
+  reverse_proxy @v2ray v2ray:443 {
+    transport http {
+      versions h1
+    }
+  }
+
+  respond 404
+}
